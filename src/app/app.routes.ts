@@ -5,7 +5,7 @@ import { ThankyouPageComponent } from './pages/thankyou-page/thankyou-page.compo
 import { ErrorPageComponent } from './pages/error-page/error-page.component';
 
 export const routes: Routes = [
-    { path: '', redirectTo: '/home', pathMatch: 'full', }
+    { path: '', redirectTo: '/home', pathMatch: 'full', },
     { path: 'home', component: HomeComponent },
     { path: 'login', component: LoginComponent },
     { path: 'done', component: ThankyouPageComponent },
