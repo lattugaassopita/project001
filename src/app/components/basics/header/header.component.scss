@@ -1,0 +1,66 @@
+.container {
+    background-color: aqua;
+    display: flex;
+    margin: -8px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+
+    h1 {
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.search-bar {
+    margin-right: 10px;
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+    padding: 36px 50px 20px 50px;
+    margin: 0;
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        padding: 25px 60px 25px 60px;
+    }
+}
+
+.login-section {
+    padding: 30px;
+
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+.navbar {
+    margin: 0;
+    padding: 8px 10px 0px 130px;
+    width: 413px;
+
+    input {
+        padding: 5px;
+        width: 400px;
+    }
+}
