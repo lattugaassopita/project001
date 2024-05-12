@@ -11,4 +11,8 @@ import { ProfileSectionImgComponent } from "../profile-section-img/profile-secti
 })
 export class HeaderComponent {
 logged: boolean = false;
+
+clicked() {
+    console.log('clicked!')
+  }
 }

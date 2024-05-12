@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+.credits {
+    background-color: black;
+    text-align: center;
+    padding: 13px;
+    margin: -8px;
+    margin-block-start: 10px;
+
+    p {
+        color: whitesmoke;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(237, 237, 237);
+    }
+}
